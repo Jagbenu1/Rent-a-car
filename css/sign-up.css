@@ -1,0 +1,23 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    border: solid 3px red;
+    width: 60%;
+    height:30em;
+    background-color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input{
+  padding: 12px 20px;
+  margin: 10px 30px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  margin: 0 auto;
+  text-align: center;
+}

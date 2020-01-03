@@ -1,0 +1,15 @@
+insert into inventory (inventory_id, name, description, price)
+values(1, 'Jeep', 'Midsize vehicle for taking the toughest terrain', 245.78),
+(2, 'Toyota', 'Compact cars to take you from A to B with style.', 176.87),
+(3, 'Tesla', ' Luxury compact cars of the future!!', 215.80),
+(4, 'Nissan', 'Compact cars that always get the job done.', 187.76),
+(5, 'Honda', 'Compact cars that are meh.', 115.98),
+(6, 'Lexus', 'Luxury compact cars that are cutting edge.', 223.76);
+
+insert into inventory(name, description, price) 
+values('Morning parking', 'We park your car or rental for you in the morning', 30.00), 
+('Morning Parking(VIP)', 'We park your car or rental for you in the morning in the VIP section', 60.00 ), 
+('Afternoon Parking', 'We park your car or rental for you in the afternoon', 25.00), 
+('Afternoon Parking(VIP)', 'We park your car or rental for you in the afternoon in the VIP section', 50.00), 
+('Night Parking', 'We park your car or rental for you at night', 45.00), 
+('Night Parking(VIP)','We park your car or rental for you at night in the VIP section.', 90.00)
